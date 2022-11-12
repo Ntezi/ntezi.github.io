@@ -4,6 +4,8 @@ import {Intro} from "../components/Intro";
 import {Footer} from "../components/Footer";
 import {About} from "../components/About";
 import Script from "next/script";
+import {Skills} from "../components/Skills";
+import {Resume} from "../components/Resume";
 
 
 export default function Home() {
@@ -14,11 +16,12 @@ export default function Home() {
 		    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 
 		    <title>Marius Ngaboyamahina</title>
-		    <meta content="" name="description"/>
+		    <meta content="Portfolio" name="description"/>
 		    <meta content="Portfolio" name="keywords"/>
 
-		    <link href="/assets/img/favicon.png" rel="icon"/>
-		    <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon"/>
+		    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+		    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+		    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
 
 		    <link
 			    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
@@ -38,6 +41,8 @@ export default function Home() {
 	    <Intro/>
 	    <main id="main">
 		    <About/>
+		    <Skills/>
+		    <Resume/>
 	    </main>
 	    <Footer/>
 	    <a href="#" className="back-to-top d-flex align-items-center justify-content-center"><i

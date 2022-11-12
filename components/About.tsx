@@ -1,6 +1,6 @@
 export function About() {
 	return (
-		<section id="about" className="about section-bg">
+		<section id="about" className="about">
 			<div className="container">
 
 				<div className="section-title">
