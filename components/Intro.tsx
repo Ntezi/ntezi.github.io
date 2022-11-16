@@ -23,7 +23,7 @@ export function Intro() {
 			<div className="hero-container" data-aos="fade-in">
 				<h1 style={{textAlign: "center"}}>Marius <br/> Ngaboyamahina</h1>
 				{/*<p>I&apos;m <span className="typed" ref={el}></span></p>*/}
-				<p>I&apos;m <span className="typed" data-typed-items="Software Engineer"></span></p>
+				<p>I&apos;m <span className="typed" data-typed-items="a Software Engineer"></span></p>
 			</div>
 		</section>
 	);

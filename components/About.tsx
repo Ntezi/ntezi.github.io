@@ -5,9 +5,7 @@ export function About() {
 
 				<div className="section-title">
 					<h2>About</h2>
-					<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-						sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
-						ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+					<p>I am an expert in Full Stack Software Engineering, functional analysis methods, Microservices Design and Implementation, Service Oriented Architecture, and System Architecture.</p>
 				</div>
 
 				<div className="row">
@@ -17,9 +15,7 @@ export function About() {
 					<div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
 						<h3>Full Stack Software Engineer</h3>
 						<p className="fst-italic">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore
-							magna aliqua.
+							My present role has allowed me to coordinate and create the full solution process from beginning to end. Excellent communication skills enable me to act as a team liaison, helping me to produce great applications that function across a wide range of platforms and systems.
 						</p>
 						<div className="row">
 							<div className="col-lg-6">

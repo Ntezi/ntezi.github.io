@@ -5,9 +5,8 @@ export function Resume() {
 
 				<div className="section-title">
 					<h2>Resume</h2>
-					<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-						sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
-						ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+					<p>At WiredIn LTD, I am currently a Senior SoftWare Engineer - Team Lead involved in a variety of
+						projects and mentoring juniors.</p>
 				</div>
 
 				<div className="row">
@@ -15,9 +14,11 @@ export function Resume() {
 						<h3 className="resume-title">Sumary</h3>
 						<div className="resume-item pb-0">
 							<h4>Marius Ngaboyamahina</h4>
-							<p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing
-								and developing user-centered digital/print marketing material from initial concept to
-								final, polished deliverable.</em></p>
+							<p><em>I am a Software Engineer with a Master&apos;s degree in Information Systems and more than
+								8 years of experience in the IT industry. Extensive knowledge of the Software
+								Development Life Cycle as well as a smattering of Data Science knowledge. Expertise in
+								Backend Engineering, Mobile Applications, Natural Language Processing, and Data
+								Mining.</em></p>
 							<ul>
 								<li>KK 395 ST Kigali Rwanda</li>
 								<li>+250 788 590 179</li>
@@ -31,17 +32,16 @@ export function Resume() {
 							<h5>October 2017 – September 2019</h5>
 							<p><em>Kobe Institute of Computing, Graduate School of Information Technology, Kobe,
 								Japan.</em></p>
-							<p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero
-								voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+							<p></p>
 						</div>
 						<div className="resume-item">
 							<h4>Bachelor of Science (B.S.) in Computer Engineering</h4>
 							<h5>January 2010 – September 2013</h5>
 							<p><em>University of Rwanda, College of Sciences and Technology (Formerly known as Kigali
 								Institute of Science and Technology), Kigali, Rwanda.</em></p>
-							<p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel
-								ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae
-								consequatur neque etlon sader mart dila</p>
+							<p>Relevant Coursework: Advanced Information Network • Advanced Software Developments (Cloud
+								Computing) • Information Network Special Experiments • Project Management • System
+								Architecture Special Experiments</p>
 						</div>
 						<h3 className="resume-title">Awards & Certifications</h3>
 						<div className="resume-item">
@@ -50,27 +50,21 @@ export function Resume() {
 							<h5>September 2017 – Jan 2019</h5>
 							<p><em>University of Rwanda, College of Sciences and Technology (Formerly known as Kigali
 								Institute of Science and Technology), Kigali, Rwanda.</em></p>
-							<p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel
-								ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae
-								consequatur neque etlon sader mart dila</p>
+							<p></p>
 						</div>
 						<div className="resume-item">
 							<h4>Japanese-Language Proficiency Test (JLPT) N4.</h4>
 							<h5>Jul 2019</h5>
 							<p><em>University of Rwanda, College of Sciences and Technology (Formerly known as Kigali
 								Institute of Science and Technology), Kigali, Rwanda.</em></p>
-							<p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel
-								ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae
-								consequatur neque etlon sader mart dila</p>
+							<p></p>
 						</div>
 						<div className="resume-item">
 							<h4>Cisco Certified Network Associate (CCNA).</h4>
 							<h5>September 2017 – Jan 2019</h5>
 							<p><em>University of Rwanda, College of Sciences and Technology (Formerly known as Kigali
 								Institute of Science and Technology), Kigali, Rwanda.</em></p>
-							<p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel
-								ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae
-								consequatur neque etlon sader mart dila</p>
+							<p></p>
 						</div>
 						<h3 className="resume-title">Publications</h3>
 						<div className="resume-item">
@@ -96,78 +90,103 @@ export function Resume() {
 					<div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
 						<h3 className="resume-title">Professional Experience</h3>
 						<div className="resume-item">
-							<h4>Software Engineer Contract</h4>
-							<h5>September 2020 – Present</h5>
-							<p><em>Cardinal Peak, Lafayette, CO, USA </em></p>
+							<h4>Technical Mentor</h4>
+							<h5>November 2022</h5>
+							<p><em>African Leadership International Limited, Cybercity, Mauritius.</em></p>
+							<p>As a member of The Room&apos;s Global Tech Expert, I had the opportunity to mentor Africa&apos;s
+								next generation of emerging tech talent through the Tech Career Catalyst (TCC) program
+								on a part-time basis.</p>
 							<ul>
-								<li>In partnership with WiredIn I work as remote Software Engineer for Cardinal Peak.
+								<li>Conducted Mock Interviews with TCC participants to experience job interview that
+									covers both technical & behavioral questions.
 								</li>
-								<li>Responsible for the design, development, and delivery of the live streaming and ad
-									serving.
-								</li>
-								<li>Snvolved in developing an enterprise and large-scale system for live audio
-									streaming.
-								</li>
-								<li>Debugging and fixing issues from various microservices.</li>
-								<li>Acquired new skills of Microservices design patterns and AWS new services such as
-									AWS MSK, MQ, SQS, EKS, etc.
-								</li>
-								<li>Tech Stack:
-									<ul>
-										<li><i>PHP, Nodejs, Reactjs, AWS, Kafka, HLS, Microservices, Redis, Postgres,
-											MySQL, Docker, Kubernetes</i></li>
-									</ul>
-								</li>
+								<li>Reviewed the resumes and provided guidelines for improvement.</li>
 							</ul>
 						</div>
 						<div className="resume-item">
-							<h4>Senior Software Developer - Team Leader / Backend & Mobile Application Development</h4>
+							<h4>Programming Trainer</h4>
+							<h5>November 2022</h5>
+							<p><em>WiredIn Academy.</em></p>
+							<p>WiredIn has launched an Academy to teach students everything they need to know about
+								programming, from the fundamentals to the more advanced concepts, logic, and processes
+								involved in the software development process. I participate in this program as a trainer
+								once or twice a week while working on my actual task.</p>
+							<ul>
+								<li>Assisted the student in basic concept of programming using Python.</li>
+								<li>Pair programing for knowledge sharing on real word projects.</li>
+							</ul>
+						</div>
+						<div className="resume-item">
+							<h4>Software Engineer Contract</h4>
+							<h5>September 2020 – Present</h5>
+							<p><em>Cardinal Peak, Lafayette, CO, USA </em></p>
+							<p>In collaboration with WiredIn, I work as a remote Software Engineer for Cardinal Peak on
+								various projects for clients in the United States.</p>
+							<ul>
+								<li>Designed and Implemented various microservice services for delivering the live
+									streaming and ad serving.
+								</li>
+								<li>Involved in developing an enterprise and large-scale system for live audio
+									streaming.
+								</li>
+								<li>Debugged and fixed issues from various microservices and legacy systems.</li>
+								<li>Acquired new skills in Microservices design patterns as well as AWS new services
+									such as AWS MSK, MQ, SQS, EKS, and so on.
+								</li>
+								<li>Tech Stack: <i>PHP | Nodejs | Reactjs | AWS | Kafka | HLS | Microservices | Redis |
+									Postgres | MySQL | Docker | Kubernetes</i></li>
+							</ul>
+						</div>
+						<div className="resume-item">
+							<h4>Senior Software Developer - Team Lead</h4>
 							<h5>February 2020 – Present</h5>
 							<p><em>WiredIn LTD, Kigali, Rwanda</em></p>
+							<p>As a team lead, I work on a variety of projects for clients in Japan, the Netherlands,
+								France, and Rwanda. I supervise and mentor junior developers.</p>
 							<ul>
-								<li>Analyzing the requirement, design and implement robust systems.</li>
-								<li>Contributing in various architectural designs and business logics.</li>
+								<li>Analyzed the requirement, design and implement robust systems.</li>
+								<li>Contributed in various architectural designs and business logics.</li>
 								<li>Monitored ongoing projects and react to problems by identifying and fixing logic and
 									coding errors.
 								</li>
 								<li>Provided mentoring assistance to junior developers.</li>
-								<li>Tech Stack:
-									<ul>
-										<li><i>PHP, Yii, Java, Spring boot, Nodejs, Reactjs, React Native, Android, AWS,
-											Redis, Postgres, MySQL, Docker.</i></li>
-									</ul>
-								</li>
+								<li>Tech Stack: <i>PHP | Yii2 | Java | Spring boot | Nodejs | Reactjs |React Native
+									|Android |AWS | Redis | Postgres | MySQL | Docker.</i></li>
 							</ul>
 						</div>
 						<div className="resume-item">
 							<h4>Software Engineer Consultant</h4>
 							<h5>February 2020 – December 2021</h5>
 							<p><em>Algorithm Inc., Kigali, Rwanda</em></p>
+							<p>In my spare time, I have the opportunity to work on Data Science projects as well as
+								Database Administrator as a Consultant. My goal here is to continue learning new things
+								while working on real-world projects.</p>
 							<ul>
-								<li>Participated in designing a solution that connects health care providers
-									(Pharmacies, Insurance, and Hospitals/Clinics).
+								<li>Participated in the development of a solution for connecting health care providers
+									(pharmacies, insurance, and hospitals/clinics).
 								</li>
-								<li>Guided the development team to improve performance of various projects, including
-									Virtual Sales Data Controller (VSDC),Point of Sales (POS), and Enterprise Resource
-									Planning (ERP) with integration to Rwanda Revenue Authority (RRA)
+								<li>Assisted the development team in improving the performance of various projects,
+									including Virtual Sales Data Controller (VSDC), Point of Sales (POS), and Enterprise
+									Resource Planning (ERP) with integration to Rwanda Revenue Authority (RRA).
 								</li>
-								<li>Involved in Electronic Billing Machine (EBM) export to Ghana. I worked closely with
-									business partner in Ghana to prepare and submit all required document to Ghana
-									Revenue Authority (GRA).
+								<li>IInvolved in the export of Electronic Billing Machines (EBM) to Ghana. I
+									collaborated closely with a Ghanaian business partner to prepare and submit all
+									required documents to the Ghana Revenue Authority (GRA).
 								</li>
-								<li>Performed ETL operations for Ishyiga Data Warehouse</li>
-								<li>Conducted research in Ishyiga Blockchain Architecture.</li>
-								<li>Tech Stack:
-									<ul>
-										<li><i>PHP, Java, MySQL, Python, AWS SageMaker and S3.</i></li>
-									</ul>
+								<li>Performed ETL operations for Ishyiga Data Warehouse.</li>
+								<li>Conducted research and implemented database auto backup with Amazon Simple Service
+									(S3) Integration
 								</li>
+								<li>Tech Stack: <i>PHP | Java | Python | MySQL | Apache Derby| AWS</i></li>
 							</ul>
 						</div>
 						<div className="resume-item">
 							<h4>Software Engineer Professional Intern</h4>
 							<h5>September 2019 – January 2020</h5>
 							<p><em>Rexvirt Communications Inc., Tokyo, Japan</em></p>
+							<p>After graduation, I had the opportunity to join Rexvirt Communications in Tokyo as an
+								intern, where I was involved in IoT System implementation in a Japanese business
+								environment.</p>
 							<ul>
 								<li>Developed an IoT solution that includes web & mobile applications, and Restful API
 									web services.
@@ -178,22 +197,18 @@ export function Resume() {
 								<li>Learned and used KiCad and Fusion 360 to design PCB and the 3D printed box
 									respectively for the device.
 								</li>
-								<li>Provided mentoring assistance to junior developers.</li>
-								<li>Tech Stack:
-									<ul>
-										<li><i>PHP, Yii, React Native, Android, AWS, Arduino, Fusion 360, KiCad,
-											MySQL</i></li>
-									</ul>
-								</li>
+								<li>Tech Stack: <i>PHP | Yii2 | React Native | Android | AWS | Arduino | Fusion 360 |
+									KiCad | MySQL.</i></li>
 							</ul>
 						</div>
 						<div className="resume-item">
 							<h4>Software Developer</h4>
 							<h5>October 2015 – August 2017</h5>
 							<p><em>WiredIn LTD, Kigali, Rwanda</em></p>
+							<p>As a Backend Developer, I worked on a variety of projects for Japanese clients.</p>
 							<ul>
-								<li>Coordinated the design and implementation of various applications including
-									collaboration with project managers.
+								<li>Coordinated the design and implementation of various applications, working with
+									project managers.
 								</li>
 								<li>Worked remotely with teams in Japan dedicated to application design and quality
 									assurance testing.
@@ -201,53 +216,44 @@ export function Resume() {
 								<li>Worked closely with local clients in Rwanda, collected feedback on different stages,
 									and directly addressed concerns.
 								</li>
-								<li>Tech Stack:
-									<ul>
-										<li><i>PHP, Yii, Ionic, AWS, Redis, Postgres, MySQL, Docker</i></li>
-									</ul>
-								</li>
+								<li>Tech Stack: <i>PHP | Yii2 | Ionic2 | Angular | AWS | Redis | Postgres | MySQL |
+									Docker</i></li>
 							</ul>
 						</div>
 						<div className="resume-item">
 							<h4>Customer Service Support Manager</h4>
 							<h5>October 2015 – August 2017</h5>
 							<p><em>Algorithm Inc., Kigali, Rwanda</em></p>
+							<p>My main responsibility was to collect user feedback and design better features to improve
+								user experience and customer satisfaction.</p>
 							<ul>
 								<li>Maintained continuity throughout all products both technically and creatively.</li>
 								<li>Conducted training courses for new employees as well as users.</li>
+								<li>Developed a Bug Reporting Tool to easy collect user feedback</li>
 								<li>Provided aftercare support for clients on assessing the performance of our
 									systems.
 								</li>
 								<li>Analyzed reports, surveys, and designed new functionality based on the client&apos;s
 									feedback.
 								</li>
-								<li>Tech Stack:
-									<ul>
-										<li><i>PHP, Java, MySQL</i></li>
-									</ul>
-								</li>
+								<li>Tech Stack: <i>PHP | Java | MySQL | Apache Derby</i></li>
 							</ul>
 						</div>
 						<div className="resume-item">
 							<h4>Junior Software Developer</h4>
 							<h5>May 2013–December 2014</h5>
 							<p><em>Algorithm Inc., Kigali, Rwanda</em></p>
+							<p>I worked on the Clinic Management System while learning a new programming concept and
+								collaborating with the seniors.</p>
 							<ul>
 								<li>Examined all products and reported any performance issues to senior developers.</li>
 								<li>Performed all testing and documented resolutions of the system.</li>
-								<li>Analyzed reports, surveys, and designed new functionality based on the client&apos;s
-									feedback.
-								</li>
-								<li>Tech Stack:
-									<ul>
-										<li><i>PHP, MySQL</i></li>
-									</ul>
-								</li>
+								<li>Worked closely with seniors through troubleshooting to resolve common issues.</li>
+								<li>Tech Stack: <i>PHP | Java | MySQL | Apache Derby</i></li>
 							</ul>
 						</div>
 					</div>
 				</div>
-
 			</div>
 		</section>
 	);
