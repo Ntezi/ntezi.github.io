@@ -113,7 +113,7 @@ export function Resume() {
 								once or twice a week while working on my actual task.</p>
 							<ul>
 								<li>Assisted the student in basic concept of programming using Python.</li>
-								<li>Pair programing for knowledge sharing on real word projects.</li>
+								<li>Pair programming for knowledge sharing on real-world projects.</li>
 							</ul>
 						</div>
 						<div className="resume-item">
@@ -224,8 +224,7 @@ export function Resume() {
 							<h4>Customer Service Support Manager</h4>
 							<h5>October 2015 – August 2017</h5>
 							<p><em>Algorithm Inc., Kigali, Rwanda</em></p>
-							<p>My main responsibility was to collect user feedback and design better features to improve
-								user experience and customer satisfaction.</p>
+							<p>My primary responsibility was collecting user feedback and designing better features to improve user experience and customer satisfaction.</p>
 							<ul>
 								<li>Maintained continuity throughout all products both technically and creatively.</li>
 								<li>Conducted training courses for new employees as well as users.</li>
