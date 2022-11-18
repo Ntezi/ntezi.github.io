@@ -15,7 +15,7 @@ export function About() {
 					<div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
 						<h3>Full Stack Software Engineer</h3>
 						<p className="fst-italic">
-							My present role has allowed me to coordinate and create the full solution process from beginning to end. Excellent communication skills enable me to act as a team liaison, helping me to produce great applications that function across a wide range of platforms and systems.
+							My real strength is my ability to understand the requirement, design and implement robust systems with agile method approach.
 						</p>
 						<div className="row">
 							<div className="col-lg-6">
@@ -32,11 +32,7 @@ export function About() {
 							</div>
 						</div>
 						<p>
-							Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt
-							adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-							Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus
-							itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis
-							culpa magni laudantium dolores.
+							My present role has allowed me to coordinate and create the full solution process from beginning to end. Excellent communication skills enable me to act as a team liaison, helping me to produce great applications that function across a wide range of platforms and systems.
 						</p>
 					</div>
 				</div>
