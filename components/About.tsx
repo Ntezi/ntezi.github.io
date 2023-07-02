@@ -17,7 +17,7 @@ export function About() {
 					<div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
 						<h3>Lead Software Engineer</h3>
 						<p className="fst-italic">
-							MMy greatest strength lies in my ability to comprehensively understand project requirements, and to leverage this understanding to design and implement robust systems. This process is further enhanced by my adept use of agile methodologies, ensuring efficient and responsive development cycles.
+							My greatest strength lies in my ability to comprehensively understand project requirements, and to leverage this understanding to design and implement robust systems. This process is further enhanced by my adept use of agile methodologies, ensuring efficient and responsive development cycles.
 						</p>
 						<div className="row">
 							<div className="col-lg-6">
