@@ -5,7 +5,9 @@ export function About() {
 
 				<div className="section-title">
 					<h2>About</h2>
-					<p>I am an expert in Full Stack Software Engineering, functional analysis methods, Microservices Design and Implementation, Service Oriented Architecture, and System Architecture.</p>
+					<p>
+						Rooted in a deep understanding of Software Engineering, I bring to the table a unique blend of expertise that encapsulates functional analysis methods, microservices design and implementation, service-oriented architecture, and system architecture. This rich repertoire of skills enables me to build robust and efficient software solutions, designed to meet the unique needs of modern-day businesses.
+					</p>
 				</div>
 
 				<div className="row">
@@ -13,9 +15,9 @@ export function About() {
 						<img src="/assets/img/profile-img.jpg" className="img-fluid" alt="Marius Ngaboyamahina"/>
 					</div>
 					<div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-						<h3>Full Stack Software Engineer</h3>
+						<h3>Lead Software Engineer</h3>
 						<p className="fst-italic">
-							My real strength is my ability to understand the requirement, design and implement robust systems with agile method approach.
+							MMy greatest strength lies in my ability to comprehensively understand project requirements, and to leverage this understanding to design and implement robust systems. This process is further enhanced by my adept use of agile methodologies, ensuring efficient and responsive development cycles.
 						</p>
 						<div className="row">
 							<div className="col-lg-6">
@@ -32,7 +34,7 @@ export function About() {
 							</div>
 						</div>
 						<p>
-							My present role has allowed me to coordinate and create the full solution process from beginning to end. Excellent communication skills enable me to act as a team liaison, helping me to produce great applications that function across a wide range of platforms and systems.
+							In my current role, I have the opportunity to oversee and guide the entire solution development process, right from its inception to completion. This role, bolstered by my excellent communication skills, allows me to act as a pivotal bridge between diverse teams. This synergy aids in the development of remarkable applications, capable of functioning seamlessly across a variety of platforms and systems.
 						</p>
 					</div>
 				</div>

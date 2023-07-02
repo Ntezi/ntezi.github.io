@@ -5,10 +5,9 @@ export function Skills() {
 
 				<div className="section-title">
 					<h2>Skills</h2>
-					<p>The ability to code in a variety of programming languages, including PHP, Java,
-						Javascript/Typescript, and Python. Using appropriate data management techniques, create and
-						manage databases. Expert knowledge of the job&apos;s technical aspects, as well as the ability to
-						effectively communicate it to both technical and non-technical audiences.</p>
+					<p>
+						I possess a versatile coding skillset, encompassing languages such as PHP, Java, JavaScript/TypeScript, and Python. Beyond programming, my expertise extends to efficient data management techniques, enabling me to create and manage complex databases. My deep understanding of technical nuances, coupled with my ability to convey them to diverse audiences—technical or non-technical—truly sets me apart in my field.
+					</p>
 				</div>
 
 				<div className="row skills-content">
