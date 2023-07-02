@@ -55,7 +55,7 @@ export default function Home() {
 	    <Script src="/assets/vendor/glightbox/js/glightbox.min.js"></Script>
 	    <Script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></Script>
 	    <Script src="/assets/vendor/swiper/swiper-bundle.min.js"></Script>
-	    <Script src="/assets/vendor/typed.js/typed.min.js"></Script>
+	    <Script src="/assets/vendor/typed.js"></Script>
 	    <Script src="/assets/vendor/waypoints/noframework.waypoints.js"></Script>
 	    <Script src="/assets/vendor/php-email-form/validate.js"></Script>
 	    <Script src="/assets/js/main.js"></Script>

@@ -94,11 +94,13 @@ export function Resume() {
                             <h4>Digital Factory Manager</h4>
                             <h5>June 2023 - Present</h5>
                             <p><em>UMWALIMU SACCO, Kigali, Rwanda.</em></p>
-                            <p>As a Digital Factory Manager, I am responsible for the overall management of the Digital Factory, including the development of the Digital Factory strategy, the management of the Digital Factory team, and the delivery of the Digital Factory’s objectives.</p>
+                            <p>As the Digital Factory Manager at UMWALIMU SACCO, I lead the development and implementation of technology/business solutions, leveraging Agile methodologies and a variety of software technologies.</p>
                             <ul>
-                                <li>Developing and implementing the Digital Factory strategy.</li>
-                                <li>Managing the Digital Factory team.</li>
-                                <li>Managing the Digital Factory budget.</li>
+                                <li>Oversee the shaping and implementation of technology/business solutions, while supervising full stack developers on architecture and technology to maintain competitive differentiation and meet security guidelines.</li>
+                                <li>Evaluate integration technologies, develop proof-of-concept and frameworks, and ensure high-quality code through collaboration and hands-on support.</li>
+                                <li>Facilitate training and knowledge sharing sessions for TI operations support in collaboration with the TI operations Manager.</li>
+                                <li>Use Agile engineering practices and various software development technologies to rapidly create and implement efficient solutions that enhance the technology stack, handling both front-end and back-end development.</li>
+                                <li>Communicate with the TI operations Unit to resolve technical dependencies, implement user stories, and write tests, all while building UMWALIMU SSACCO&apos;s brand in the technology community.</li>
                             </ul>
                         </div>
                         <div className="resume-item">
