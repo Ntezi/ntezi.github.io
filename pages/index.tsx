@@ -6,6 +6,8 @@ import {About} from "../components/About";
 import Script from "next/script";
 import {Skills} from "../components/Skills";
 import {Resume} from "../components/Resume";
+import {Portfolio} from "../components/Portfolio";
+import {Service} from "../components/Service";
 
 
 export default function Home() {
@@ -43,6 +45,8 @@ export default function Home() {
 		    <About/>
 		    <Skills/>
 		    <Resume/>
+		    {/*<Portfolio/>*/}
+		    <Service/>
 	    </main>
 	    <Footer/>
 	    <a href="#" className="back-to-top d-flex align-items-center justify-content-center"><i

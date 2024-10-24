@@ -6,7 +6,7 @@ export function Resume() {
                 <div className="section-title">
                     <h2>Resume</h2>
                     <p>
-                        As a Digital Factory Manager at UMWALIMU SACCO, I&apos;m actively engaged in a broad  spectrum of projects while also dedicating time to mentor the next generation of developers in our team.
+                        I’m a seasoned software engineer with a strong focus on microservices architecture, system integration, and cloud-based solutions. Currently, as a Digital Factory Manager at UMWALIMU SACCO, I lead diverse technological initiatives to streamline operations in the financial sector.
                     </p>
                 </div>
 
@@ -17,7 +17,7 @@ export function Resume() {
                             <h4>Marius Ngaboyamahina</h4>
                             <p>
                                 <em>
-                                    Armed with a Master&apos;s degree in Information Systems and a decade&apos;s worth of experience in the IT industry, I am a seasoned Software Engineer with a comprehensive understanding of the Software Development Life Cycle. My technical prowess is not only confined to Backend Engineering and Mobile Application development but also extends to the realms of Data Science, Natural Language Processing, and Data Mining, offering a well-rounded skill set to navigate complex IT challenges.
+                                    With a Master’s in Information Systems and over 10 years of experience, I specialize in full-stack development, data science, backend engineering, and microservice architecture. My passion is driving innovation through technology, enhancing organizational success, and contributing to a better society.
                                 </em>
                             </p>
                             <ul>

@@ -6,7 +6,7 @@ export function About() {
 				<div className="section-title">
 					<h2>About</h2>
 					<p>
-						Rooted in a deep understanding of Software Engineering, I bring to the table a unique blend of expertise that encapsulates functional analysis methods, microservices design and implementation, service-oriented architecture, and system architecture. This rich repertoire of skills enables me to build robust and efficient software solutions, designed to meet the unique needs of modern-day businesses.
+						With over 10 years of rich experience in Software Engineering, I specialize in a full spectrum of the Software Development Life Cycle, including backend engineering, mobile applications, data science, and microservice architecture. My passion lies in creating innovative software solutions that fuel organizational success while fostering societal impact. Additionally, I’m dedicated to mentoring the next generation of developers and sharing my knowledge to build future talent.
 					</p>
 				</div>
 
@@ -15,15 +15,15 @@ export function About() {
 						<img src="/assets/img/profile-img.jpg" className="img-fluid" alt="Marius Ngaboyamahina"/>
 					</div>
 					<div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-						<h3>Lead Software Engineer</h3>
+						<h3>Lead Software Engineer & Digital Factory Manager</h3>
 						<p className="fst-italic">
-							My greatest strength lies in my ability to comprehensively understand project requirements, and to leverage this understanding to design and implement robust systems. This process is further enhanced by my adept use of agile methodologies, ensuring efficient and responsive development cycles.
+							My key strength is the ability to comprehend and meet complex project requirements using Agile methodologies and leveraging a variety of technologies. I thrive on fostering collaborative environments and delivering efficient, scalable solutions.
 						</p>
 						<div className="row">
 							<div className="col-lg-6">
 								<ul>
-									<li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong><span>Master</span></li>
-									<li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>Kigali Rwanda</span></li>
+									<li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong><span>Master of Science in Information Systems</span></li>
+									<li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>Kigali, Rwanda</span></li>
 								</ul>
 							</div>
 							<div className="col-lg-6">
@@ -34,7 +34,7 @@ export function About() {
 							</div>
 						</div>
 						<p>
-							In my current role, I have the opportunity to oversee and guide the entire solution development process, right from its inception to completion. This role, bolstered by my excellent communication skills, allows me to act as a pivotal bridge between diverse teams. This synergy aids in the development of remarkable applications, capable of functioning seamlessly across a variety of platforms and systems.
+							Currently, as the Digital Factory Manager at UMWALIMU SACCO, I lead the design and implementation of technology solutions that optimize financial transaction workflows. My focus is on creating scalable, secure, and user-friendly systems, which have improved accessibility and service delivery to over 100,000 teachers nationwide.
 						</p>
 					</div>
 				</div>
