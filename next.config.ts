@@ -1,7 +1,18 @@
-import type { NextConfig } from "next";
+import type {NextConfig} from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+    output: "export",
+    reactStrictMode: true,
+    swcMinify: true,
+    exportPathMap: async function () {
+        return {
+            '/': {page: '/'},
+        }
+    },
+    trailingSlash: true,
+    images: {
+        unoptimized: true
+    }
 };
 
 export default nextConfig;
