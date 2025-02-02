@@ -11,7 +11,7 @@ export function Resume() {
                 </div>
 
                 <div className="row">
-                    <div className="col-lg-6" data-aos="fade-up">
+                    <div className="col-lg-6">
                         <h3 className="resume-title">Sumary</h3>
                         <div className="resume-item pb-0">
                             <h4>Marius Ngaboyamahina</h4>
@@ -88,7 +88,7 @@ export function Resume() {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <div className="col-lg-6">
                         <h3 className="resume-title">Professional Experience</h3>
                         <div className="resume-item">
                             <h4>Digital Factory Manager</h4>

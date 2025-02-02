@@ -11,7 +11,9 @@ export function PortfolioDetails({project}: {
                             <div className="swiper-wrapper align-items-center">
                                 {project.images.map((image, index) => (
                                     <div className="swiper-slide" key={index}>
-                                        <img src={image} alt={`Portfolio ${project.title} Slide ${index + 1}`}/>
+                                        <picture>
+                                            <img src={image} alt={`Portfolio ${project.title} Slide ${index + 1}`}/>
+                                        </picture>
                                     </div>
                                 ))}
                             </div>
