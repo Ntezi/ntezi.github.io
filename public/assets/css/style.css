@@ -814,10 +814,6 @@ section {
   --bs-gutter-y: 24px;
 }
 
-.services .services-grid > div {
-  display: flex;
-}
-
 .services .icon-box {
   position: relative;
   flex: 1;
@@ -900,10 +896,24 @@ section {
 
 .services .description {
   grid-column: 2;
+  margin: 0 0 10px;
+  padding-left: 18px;
+  list-style: disc;
   line-height: 24px;
   font-size: 14.5px;
-  margin-bottom: 8px;
   color: #4b5563;
+}
+
+.services .description li {
+  margin-bottom: 6px;
+}
+
+.services .description li:last-child {
+  margin-bottom: 0;
+}
+
+.services .description li::marker {
+  color: #149ddd;
 }
 
 .services .service-tags {
