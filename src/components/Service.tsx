@@ -10,7 +10,7 @@ export function Service() {
                     </p>
                 </div>
 
-                <div className="row">
+                <div className="row services-grid">
                     <div className="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
                         <div className="icon"><i className="bi bi-gear"></i></div>
                         <h4 className="title"><a href="#services">Platform Architecture & Microservices</a></h4>

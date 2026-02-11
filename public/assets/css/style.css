@@ -787,34 +787,84 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services {
+  position: relative;
+  background:
+    radial-gradient(1200px 500px at 10% -10%, rgba(20, 157, 221, 0.18), transparent 60%),
+    radial-gradient(900px 500px at 90% 0%, rgba(23, 59, 108, 0.12), transparent 55%),
+    #f7f9fc;
+}
+
+.services::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(135deg, rgba(20, 157, 221, 0.08) 0 1px, transparent 1px 12px);
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.services .container {
+  position: relative;
+  z-index: 1;
+}
+
+.services .services-grid {
+  --bs-gutter-x: 24px;
+  --bs-gutter-y: 24px;
+}
+
+.services .services-grid > div {
+  display: flex;
+}
+
 .services .icon-box {
-  margin-bottom: 20px;
-  padding: 24px;
-  background: #fff;
-  border: 1px solid #e4edf9;
-  border-radius: 14px;
-  box-shadow: 0 12px 22px rgba(13, 64, 119, 0.08);
-  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  position: relative;
+  flex: 1;
+  padding: 26px;
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  column-gap: 18px;
+  row-gap: 8px;
+  background: linear-gradient(180deg, #ffffff 0%, #f6f9ff 100%);
+  border: 1px solid rgba(20, 157, 221, 0.18);
+  border-radius: 18px;
+  box-shadow: 0 16px 30px rgba(13, 64, 119, 0.12);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  overflow: hidden;
+}
+
+.services .icon-box::after {
+  content: "";
+  position: absolute;
+  left: 26px;
+  right: 26px;
+  top: 0;
+  height: 3px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #149ddd, #3fc0e8);
+  opacity: 0.7;
 }
 
 .services .icon-box:hover {
   transform: translateY(-6px);
-  border-color: #c7dcf8;
-  box-shadow: 0 18px 28px rgba(13, 64, 119, 0.15);
+  border-color: rgba(20, 157, 221, 0.45);
+  box-shadow: 0 20px 36px rgba(13, 64, 119, 0.18);
 }
 
 .services .icon {
-  float: left;
+  grid-row: 1 / span 3;
+  align-self: start;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 54px;
-  height: 54px;
-  background: linear-gradient(135deg, #149ddd, #3fc0e8);
-  border-radius: 50%;
-  transition: 0.5s;
-  border: 1px solid #149ddd;
-  box-shadow: 0 8px 16px rgba(20, 157, 221, 0.35);
+  width: 56px;
+  height: 56px;
+  background: linear-gradient(145deg, #149ddd, #3fc0e8);
+  border-radius: 16px;
+  transition: transform 0.25s ease, background 0.25s ease, box-shadow 0.25s ease;
+  border: 1px solid rgba(20, 157, 221, 0.4);
+  box-shadow: 0 12px 18px rgba(20, 157, 221, 0.28);
 }
 
 .services .icon i {
@@ -825,6 +875,8 @@ section {
 
 .services .icon-box:hover .icon {
   background: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 18px rgba(13, 64, 119, 0.18);
 }
 
 .services .icon-box:hover .icon i {
@@ -832,9 +884,9 @@ section {
 }
 
 .services .title {
-  margin-left: 80px;
+  grid-column: 2;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 6px;
   font-size: 18px;
 }
 
@@ -847,15 +899,15 @@ section {
 }
 
 .services .description {
-  margin-left: 80px;
+  grid-column: 2;
   line-height: 24px;
-  font-size: 14px;
-  margin-bottom: 12px;
-  color: #495057;
+  font-size: 14.5px;
+  margin-bottom: 8px;
+  color: #4b5563;
 }
 
 .services .service-tags {
-  margin-left: 80px;
+  grid-column: 2;
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
@@ -866,11 +918,16 @@ section {
   align-items: center;
   padding: 4px 10px;
   border-radius: 999px;
-  background: #f0f6ff;
-  border: 1px solid #d9e6f7;
-  color: #173b6c;
+  background: #edf5ff;
+  border: 1px solid rgba(20, 157, 221, 0.2);
+  color: #0d4a7d;
   font-size: 12px;
   font-weight: 600;
+}
+
+.services .icon-box:hover .service-tag {
+  background: #e3f1ff;
+  border-color: rgba(20, 157, 221, 0.35);
 }
 
 /*--------------------------------------------------------------
