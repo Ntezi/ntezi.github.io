@@ -6,7 +6,7 @@ export function Resume() {
                 <div className="section-title">
                     <h2>Resume</h2>
                     <p>
-                        A seasoned Software Engineer with a Master's degree in Information Systems and 10+ years of experience across the Software Development Life Cycle. Strong in backend engineering, mobile applications, and microservice architecture, with a solid understanding of data science (NLP, data mining). Experienced delivering full-stack solutions across multiple tech stacks, with a strong interest in React, Node.js, and microservices. Committed mentor focused on developing others.
+                        A seasoned Software Engineer with a Master&apos;s degree in Information Systems and 10+ years of experience across the Software Development Life Cycle. Strong in backend engineering, mobile applications, and microservice architecture, with a solid understanding of data science (NLP, data mining). Experienced delivering full-stack solutions across multiple tech stacks, with a strong interest in React, Node.js, and microservices. Committed mentor focused on developing others.
                     </p>
                 </div>
 
@@ -17,7 +17,7 @@ export function Resume() {
                             <h4>Marius Ngaboyamahina</h4>
                             <p>
                                 <em>
-                                    A seasoned Software Engineer with a Master's degree in Information Systems, bringing 10+ years of experience across the Software Development Life Cycle. Strong in backend engineering, mobile applications, and microservice architecture, with a solid understanding of data science (NLP, data mining). Experienced delivering full-stack solutions across multiple tech stacks, with a strong interest in React, Node.js, and microservices. Committed mentor focused on developing others.
+                                    A seasoned Software Engineer with a Master&apos;s degree in Information Systems, bringing 10+ years of experience across the Software Development Life Cycle. Strong in backend engineering, mobile applications, and microservice architecture, with a solid understanding of data science (NLP, data mining). Experienced delivering full-stack solutions across multiple tech stacks, with a strong interest in React, Node.js, and microservices. Committed mentor focused on developing others.
                                 </em>
                             </p>
                             <ul>
@@ -46,7 +46,7 @@ export function Resume() {
 
                         <h3 className="resume-title">Awards & Certifications</h3>
                         <div className="resume-item">
-                            <h4>African Business Education (ABE) Initiative Master's Degree and Internship Program</h4>
+                            <h4>African Business Education (ABE) Initiative Master&apos;s Degree and Internship Program</h4>
                             <h5>2017</h5>
                             <p><em>ABE Initiative</em></p>
                         </div>
@@ -101,10 +101,10 @@ export function Resume() {
                             <h5>Jun 2025 - Present</h5>
                             <p><em>Hence Technologies Ltd., Remote (Accra, Ghana) | London, UK</em></p>
                             <p>
-                                Provided full-stack engineering support for Hence Legal's client engagements, translating requirements into production workflows and data solutions.
+                                Provided full-stack engineering support for Hence Legal&apos;s client engagements, translating requirements into production workflows and data solutions.
                             </p>
                             <ul>
-                                <li>Delivered full-stack engineering solutions tailored to Hence Legal's proprietary technology platform.</li>
+                                <li>Delivered full-stack engineering solutions tailored to Hence Legal&apos;s proprietary technology platform.</li>
                                 <li>Supported client-facing engagements by translating business and IT requirements into actionable technical solutions.</li>
                                 <li>Designed and executed product workflows aligned with complex client needs under tight deadlines.</li>
                                 <li>Performed data integration and transformation tasks to improve efficiency and reporting accuracy.</li>
@@ -141,7 +141,7 @@ export function Resume() {
                             <h5>Nov 2022</h5>
                             <p><em>African Leadership International Limited, Cybercity, Mauritius</em></p>
                             <p>
-                                Mentored participants in the Tech Career Catalyst (TCC) program as part of The Room's Global Tech Expert team.
+                                Mentored participants in the Tech Career Catalyst (TCC) program as part of The Room&apos;s Global Tech Expert team.
                             </p>
                             <ul>
                                 <li>Conducted mock interviews covering both technical and behavioral questions.</li>
