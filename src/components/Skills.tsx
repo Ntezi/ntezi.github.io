@@ -6,13 +6,14 @@ export function Skills() {
 				<div className="section-title">
 					<h2>Skills</h2>
 					<p>
-						I build full-stack systems with deep backend expertise, strong system design, and reliable delivery practices. Core strengths include Node.js, TypeScript, PHP, SQL, microservices, and API design, backed by cloud and DevOps experience with AWS, Docker, and CI/CD.
+						I build full-stack systems with deep backend expertise, strong system design, and reliable delivery practices. Core strengths include Node.js, TypeScript, Go, PHP, SQL, microservices, and API design, backed by cloud and DevOps experience with AWS, Docker, and CI/CD.
 					</p>
 				</div>
 
 				<div className="skills-badges">
 					<span className="skill-badge">Node.js</span>
 					<span className="skill-badge">TypeScript</span>
+					<span className="skill-badge">Go</span>
 					<span className="skill-badge">React</span>
 					<span className="skill-badge">Next.js</span>
 					<span className="skill-badge">C# / .NET 7</span>

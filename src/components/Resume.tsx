@@ -132,7 +132,7 @@ export function Resume() {
                                 <li>Facilitated integration with RSwitch for interoperability with Rwanda National Digital Payment System (RNDPS).</li>
                                 <li>Revitalized APIs, reducing response times by half and improving interoperability.</li>
                                 <li>Built a mentorship culture that strengthened project management and system design skills.</li>
-                                <li>Tech Stack: <i>C# | ASP.NET 7 | Docker | SQL Server | Windows Server | GitHub Actions</i></li>
+                                <li>Tech Stack: <i>C# | ASP.NET 7 | Go | Docker | SQL Server | Windows Server | GitHub Actions</i></li>
                             </ul>
                         </div>
 
