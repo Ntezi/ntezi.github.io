@@ -1,19 +1,25 @@
-# ntezi.github.io
+# Marius Ngaboyamahina Portfolio
 
-Personal portfolio and CV site for Marius Ngaboyamahina.
+Personal portfolio site for `ntezi.github.io`, converted to a static-export Next.js app.
 
-## Overview
-- Single-page layout with Intro, About, Resume, Skills, Portfolio, and Contact sections.
-- Content lives in React components under `src/components`.
+## Development
 
-## Tech Stack
-- Next.js (App Router)
-- React
-- TypeScript
-- Tailwind CSS
+```bash
+pnpm install
+pnpm dev
+```
 
-## Content Updates
-- Resume: `src/components/Resume.tsx`
-- Skills: `src/components/Skills.tsx`
-- About: `src/components/About.tsx`
-- Portfolio: `src/components/Portfolio.tsx`
+Open `http://localhost:3000`.
+
+## Validation
+
+```bash
+pnpm typecheck
+pnpm build
+```
+
+`pnpm build` produces the static GitHub Pages output in `out/`.
+
+## Deployment
+
+The repository includes `.github/workflows/nextjs.yml`, which installs dependencies with pnpm, runs `pnpm build`, adds `out/.nojekyll`, and deploys `out/` to GitHub Pages.

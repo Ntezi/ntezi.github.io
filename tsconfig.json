@@ -15,7 +15,7 @@
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve",
+    "jsx": "react-jsx",
     "incremental": true,
     "plugins": [
       {
@@ -29,11 +29,19 @@
     }
   },
   "include": [
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts",
     "next-env.d.ts",
-    "out/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "src/app/App.tsx",
+    "src/app/layout.tsx",
+    "src/app/page.tsx",
+    "src/app/sections/**/*.tsx",
+    "src/app/components/ui/badge.tsx",
+    "src/app/components/ui/button.tsx",
+    "src/app/components/ui/card.tsx",
+    "src/app/components/ui/progress.tsx",
+    "src/app/components/ui/utils.ts",
+    "src/data/**/*.ts",
+    ".next/dev/types/**/*.ts"
   ],
   "exclude": [
     "node_modules"
