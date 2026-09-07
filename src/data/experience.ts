@@ -23,8 +23,10 @@ export const roles: Role[] = [
     summary: 'Lead an eight-person team responsible for the design, delivery, integration, and production operation of digital banking and business solutions.',
     highlights: [
       'Led eKash / RNDPS integration using ISO 20022 and PostBridge integration using ISO 8583 for interoperability and ATM access.',
-      'Introduced Go for SMPP integration and Kafka for account validation and event-driven processing.',
-      'Directed MTN Escrow, school-fees and Dusangire Lunch collections, Agency Banking, online loan applications, and IFRS 9-aligned loan provisioning.',
+      'Introduced Go for SMPP integration and use Kafka for account information synchronization, validations, and event-driven processing.',
+      'Directed online loan application delivery and the revamp of internet and mobile banking.',
+      'Led Educard integrations, MTN Escrow, school-fees and Dusangire Lunch collections, and Agency Banking.',
+      'Led IFRS 9 expected credit loss (ECL) automation.',
       'Introduced Agile delivery, CI/CD, and containerization; mentor engineers in architecture, system design, and project execution.',
     ],
     stack: ['C#', 'ASP.NET Core', 'Go', 'Kafka', 'ISO 20022', 'ISO 8583', 'SMPP', 'SQL Server', 'Redis', 'Docker', 'GitHub Actions'],
