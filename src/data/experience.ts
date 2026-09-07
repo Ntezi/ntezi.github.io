@@ -2,6 +2,7 @@ export type Role = {
   id: string;
   title: string;
   company: string;
+  relationship: string;
   location: string;
   period: string;
   isCurrent: boolean;
@@ -12,14 +13,48 @@ export type Role = {
 
 export const roles: Role[] = [
   {
+    id: 'umwalimu-sacco',
+    title: 'Digital Factory Manager',
+    relationship: 'Permanent employment · Team of 8',
+    company: 'UMWALIMU SACCO',
+    location: 'Kigali headquarters · Remote from Accra, Ghana',
+    period: 'Jun 2023 — Present',
+    isCurrent: true,
+    summary: 'Lead an eight-person team responsible for the design, delivery, integration, and production operation of digital banking and business solutions.',
+    highlights: [
+      'Led eKash / RNDPS integration using ISO 20022 and PostBridge integration using ISO 8583 for interoperability and ATM access.',
+      'Introduced Go for SMPP integration and Kafka for account validation and event-driven processing.',
+      'Directed MTN Escrow, school-fees and Dusangire Lunch collections, Agency Banking, online loan applications, and IFRS 9-aligned loan provisioning.',
+      'Introduced Agile delivery, CI/CD, and containerization; mentor engineers in architecture, system design, and project execution.',
+    ],
+    stack: ['C#', 'ASP.NET Core', 'Go', 'Kafka', 'ISO 20022', 'ISO 8583', 'SMPP', 'SQL Server', 'Redis', 'Docker', 'GitHub Actions'],
+  },
+  {
+    id: 'hence',
+    title: 'Forward Deployed Engineer — Consultant',
+    relationship: 'Concurrent consultancy',
+    company: 'Hence Technologies Ltd.',
+    location: 'London, UK — Remote (Accra, Ghana)',
+    period: 'Jun 2025 — Present',
+    isCurrent: true,
+    summary: "Implement production AI and data solutions for Hence Legal, working directly with stakeholders across the United States, Europe, and Africa.",
+    highlights: [
+      'Translate complex client requirements into deployable workflows, integrations, and maintainable product capabilities.',
+      'Deployed through Hence to Unruly Corporation for a Palantir Foundry stack migration.',
+      'Aligned frontend and backend endpoints, OSDK dependencies, OAuth configuration, and ontology-backed application wiring.',
+    ],
+    stack: ['Palantir Foundry', 'OSDK', 'OAuth', 'TypeScript', 'React', 'Data Integration', 'Production AI'],
+  },
+  {
     id: 'credit-jambo',
     title: 'Senior Software Developer Lead (Consultant)',
+    relationship: 'Concurrent fixed-term consultancy',
     company: 'Credit Jambo Ltd.',
     location: 'Musanze, Rwanda — Remote (Accra, Ghana)',
-    period: 'Nov 2025 — Present',
-    isCurrent: true,
+    period: 'Nov 2025 — Jun 2026',
+    isCurrent: false,
     summary:
-      'Leading technical delivery for the Jambo360 platform, partnering closely with the CTO on architecture, code quality, and on-time milestone execution.',
+      'Led technical delivery for the Jambo360 platform, partnering closely with the CTO on architecture, code quality, and on-time milestone execution.',
     highlights: [
       'Led the technical development team, providing day-to-day guidance and oversight to drive execution against delivery milestones.',
       'Guided software architecture and technical design decisions for the Jambo360 platform in collaboration with the CTO.',
@@ -29,98 +64,9 @@ export const roles: Role[] = [
     stack: ['Node.js', 'TypeScript', 'React', 'Tailwind', 'React Native', 'PostgreSQL', 'Docker', 'Microservices'],
   },
   {
-    id: 'hence',
-    title: 'Senior Software Engineer Consultant (Contract)',
-    company: 'Hence Technologies Ltd.',
-    location: 'London, UK — Remote (Accra, Ghana)',
-    period: 'Jun 2025 — Present',
-    isCurrent: true,
-    summary:
-      "Provided full-stack engineering support for Hence Legal's global client base, working closely with teams across the US, Europe, and Africa.",
-    highlights: [
-      "Delivered full-stack engineering solutions tailored to Hence Legal's proprietary technology platform.",
-      'Supported client-facing engagements by translating business and IT requirements into actionable technical solutions.',
-      'Designed and executed product workflows, ensuring alignment with complex client needs under tight deadlines.',
-      'Performed data integration and transformation tasks, enhancing the efficiency and accuracy of client reporting systems.',
-      'Rapidly acquired proficiency in Palantir Foundry architecture and integrated it into product development workflows.',
-    ],
-    stack: ['Palantir Foundry', 'JavaScript', 'TypeScript', 'React', 'Data Integration', 'Workflow Automation'],
-  },
-  {
-    id: 'umwalimu-sacco',
-    title: 'Digital Factory Manager',
-    company: 'UMWALIMU SACCO',
-    location: 'Kigali, Rwanda',
-    period: 'Jun 2023 — Present',
-    isCurrent: true,
-    summary:
-      'Lead development and implementation of technology and business solutions, leveraging Agile methodologies and a variety of software technologies across banking and fintech integrations.',
-    highlights: [
-      'Implemented Agile methodologies, enhancing financial product delivery speed and client satisfaction.',
-      'Introduced CI/CD, halving deployment times and ensuring high-availability banking services.',
-      'Pioneered containerization, reducing infrastructure costs and enhancing application scalability.',
-      'Directed key system integrations between UMWALIMU SACCO and telecom/banking sectors, optimizing transaction workflows.',
-      'Spearheaded MTN Escrow Liquidation & Deposit, School Fees Collection, and School Feeding Collection (Dusangire Lunch) integrations.',
-      'Led and designed an online loan application enabling teachers nationwide to apply for loans without visiting branches.',
-      'Designed and implemented automation of loan provision aligned with IFRS 9 standards.',
-      'Led the integration with PostBridge Interface, enabling teachers to use ATMs.',
-      'Facilitated integration with RSwitch, joining the Rwanda National Digital Payment System (RNDPS) for interoperability.',
-      "Revitalized UMWALIMU SACCO's APIs, reducing response times by half and enhancing system interoperability.",
-      'Built a mentorship culture, strengthening the team\'s project management and system design skills.',
-    ],
-    stack: ['C#', 'ASP.NET 7', 'Docker', 'SQL Server', 'Windows Server', 'GitHub Actions'],
-  },
-  {
-    id: 'ali-mentor',
-    title: 'Technical Mentor (Part-time)',
-    company: 'African Leadership International Limited',
-    location: 'Cybercity, Mauritius',
-    period: 'Nov 2022',
-    isCurrent: false,
-    summary:
-      "Mentored Tech Career Catalyst (TCC) participants as part of The Room's Global Tech Expert team, contributing to the growth of Africa's upcoming tech talent.",
-    highlights: [
-      'Conducted mock interviews with TCC participants, covering both technical and behavioral questions.',
-      'Reviewed resumes and provided actionable feedback to improve job application success.',
-    ],
-    stack: ['Mentorship', 'Interview Coaching', 'Resume Review'],
-  },
-  {
-    id: 'wiredin-academy',
-    title: 'Programming Trainer',
-    company: 'WiredIn Academy',
-    location: 'Kigali, Rwanda',
-    period: 'Nov 2022 — Jun 2023',
-    isCurrent: false,
-    summary:
-      "Trained students on programming fundamentals through advanced concepts as part of WiredIn Academy's programming curriculum.",
-    highlights: [
-      'Helped students understand fundamental programming concepts using Python.',
-      'Facilitated pair-programming exercises with hands-on experience on real-world projects.',
-    ],
-    stack: ['Python', 'Pair Programming', 'Curriculum Design'],
-  },
-  {
-    id: 'cardinal-peak',
-    title: 'Software Engineer (Contract)',
-    company: 'Cardinal Peak',
-    location: 'Lafayette, CO, USA — Remote',
-    period: 'Sep 2020 — Jun 2023',
-    isCurrent: false,
-    summary:
-      'Built and supported microservices for US-based clients in partnership with WiredIn, focusing on live streaming, ad serving, and large-scale enterprise systems.',
-    highlights: [
-      'Designed and implemented multiple microservices for live streaming and ad serving.',
-      'Played a key role in developing a large-scale enterprise system for live audio streaming.',
-      'Debugged and resolved issues across microservices and legacy systems.',
-      'Honed microservices design patterns and AWS skills (MSK, MQ, SQS, EKS).',
-      'Supervised a Carnegie Mellon student practicum project in Embedded Systems.',
-    ],
-    stack: ['PHP', 'Node.js', 'React', 'AWS', 'Kafka', 'HLS', 'Microservices', 'Redis', 'PostgreSQL', 'MySQL', 'Docker', 'Kubernetes'],
-  },
-  {
     id: 'wiredin-lead',
     title: 'Senior Software Developer (Team Lead)',
+    relationship: 'Primary employment',
     company: 'WiredIn LTD',
     location: 'Kigali, Rwanda',
     period: 'Feb 2020 — Jun 2023',
@@ -135,8 +81,98 @@ export const roles: Role[] = [
     stack: ['PHP', 'Yii2', 'Java', 'Spring Boot', 'Node.js', 'React', 'React Native', 'Android', 'AWS', 'Redis', 'PostgreSQL', 'MySQL', 'Docker'],
   },
   {
+  "id": "audacy",
+  "title": "Software Engineer — Audacy Deployment",
+  "company": "Audacy / Cardinal Peak partnership",
+  "period": "Sep 2020 — Oct 2021",
+  "summary": "Contributed to software delivery for Audacy through the WiredIn–Cardinal Peak partnership.",
+  "stack": [
+    "Node.js",
+    "AWS",
+    "PostgreSQL",
+    "Redis",
+    "Kubernetes",
+    "HLS"
+  ],
+  "relationship": "Client deployment through WiredIn",
+  "location": "Remote · United States",
+  "isCurrent": false,
+  "highlights": []
+},
+  {
+  "id": "amperwave",
+  "title": "Software Engineer — AmperWave Deployment",
+  "company": "AmperWave / Cardinal Peak partnership",
+  "period": "Nov 2021 — Sep 2022",
+  "summary": "Designed microservices for live audio streaming and ad serving; resolved production issues across modern services and legacy systems. Worked with Kafka, Confluent, and AWS MSK, MQ, SQS, and EKS.",
+  "stack": [
+    "PHP",
+    "React",
+    "Kafka",
+    "Confluent",
+    "HLS",
+    "AWS",
+    "Docker",
+    "Kubernetes"
+  ],
+  "relationship": "Client deployment through WiredIn",
+  "location": "Remote · United States",
+  "isCurrent": false,
+  "highlights": []
+},
+  {
+  "id": "energiepartners",
+  "title": "Software Engineer — EnergiePartners Deployment",
+  "company": "EnergiePartners",
+  "period": "Feb 2020 — Aug 2020; Oct 2022 — Jun 2023",
+  "summary": "Delivered software engineering work across two assignments for a Netherlands-based client while employed by WiredIn.",
+  "stack": [
+    "Java",
+    "Android",
+    "Python",
+    "Django"
+  ],
+  "relationship": "Client deployment through WiredIn",
+  "location": "Remote · Netherlands",
+  "isCurrent": false,
+  "highlights": []
+},
+  {
+    id: 'wiredin-academy',
+    title: 'Programming Trainer',
+    relationship: 'Part-time alongside WiredIn employment',
+    company: 'WiredIn Academy',
+    location: 'Kigali, Rwanda',
+    period: 'Nov 2022 — Jun 2023',
+    isCurrent: false,
+    summary:
+      "Trained students on programming fundamentals through advanced concepts as part of WiredIn Academy's programming curriculum.",
+    highlights: [
+      'Helped students understand fundamental programming concepts using Python.',
+      'Facilitated pair-programming exercises with hands-on experience on real-world projects.',
+    ],
+    stack: ['Python', 'Pair Programming', 'Curriculum Design'],
+  },
+  {
+    id: 'ali-mentor',
+    title: 'Technical Mentor (Part-time)',
+    relationship: 'Concurrent consultancy',
+    company: 'African Leadership International Limited',
+    location: 'Cybercity, Mauritius',
+    period: 'Nov 2022',
+    isCurrent: false,
+    summary:
+      "Mentored Tech Career Catalyst (TCC) participants as part of The Room's Global Tech Expert team, contributing to the growth of Africa's upcoming tech talent.",
+    highlights: [
+      'Conducted mock interviews with TCC participants, covering both technical and behavioral questions.',
+      'Reviewed resumes and provided actionable feedback to improve job application success.',
+    ],
+    stack: ['Mentorship', 'Interview Coaching', 'Resume Review'],
+  },
+  {
     id: 'algorithm-consultant',
     title: 'Software Engineer Consultant',
+    relationship: 'Concurrent consultancy',
     company: 'Algorithm Inc.',
     location: 'Kigali, Rwanda',
     period: 'Feb 2020 — Mar 2023',
@@ -156,6 +192,7 @@ export const roles: Role[] = [
   {
     id: 'rexvirt',
     title: 'Software Engineer (Professional Intern)',
+    relationship: 'ABE Initiative internship · WiredIn partner placement',
     company: 'Rexvirt Communications Inc.',
     location: 'Tokyo, Japan',
     period: 'Sep 2019 — Jan 2020',
@@ -172,12 +209,13 @@ export const roles: Role[] = [
   {
     id: 'wiredin-developer',
     title: 'Software Developer',
+    relationship: 'Employment',
     company: 'WiredIn LTD',
     location: 'Kigali, Rwanda',
     period: 'Oct 2015 — Aug 2017',
     isCurrent: false,
     summary:
-      'Backend developer delivering solutions for Japanese clients, coordinating with cross-border teams and local stakeholders.',
+      'Worked as a bridge engineer for Japanese clients, translating requirements and coordinating delivery, quality assurance, and communication across Rwanda and Japan.',
     highlights: [
       'Coordinated design and implementation with project managers across cross-border teams.',
       'Collaborated remotely with teams in Japan on application design and quality assurance.',
@@ -188,12 +226,13 @@ export const roles: Role[] = [
   {
     id: 'algorithm-support',
     title: 'Software Support Manager',
+    relationship: 'Employment · Team of 10',
     company: 'Algorithm Inc.',
     location: 'Kigali, Rwanda',
     period: 'Jan 2015 — Sep 2015',
     isCurrent: false,
     summary:
-      'Led support workflows by gathering user feedback, designing enhanced features, and resolving complex technical issues.',
+      'Led ten support specialists across client organizations, coordinating assignments, escalations, service quality, and client communication. Automated support workflows and built a bug-reporting tool.',
     highlights: [
       'Identified, reported, and rectified QA issues to maintain high service standards.',
       'Facilitated training courses for new employees and users.',
@@ -206,12 +245,13 @@ export const roles: Role[] = [
   {
     id: 'algorithm-junior',
     title: 'Junior Software Developer',
+    relationship: 'Employment',
     company: 'Algorithm Inc.',
     location: 'Kigali, Rwanda',
     period: 'May 2013 — Dec 2014',
     isCurrent: false,
     summary:
-      'Contributed to a Clinic Management System while collaborating with senior team members to build foundational engineering skills.',
+      'Contributed to Ishyiga inventory optimization, including stockout management and purchase forecasting, alongside business and clinic-management software.',
     highlights: [
       'Reported performance issues to senior developers for prompt resolution.',
       'Conducted thorough testing and documented system resolutions.',
@@ -221,5 +261,5 @@ export const roles: Role[] = [
   },
 ];
 
-export const currentRoles: Role[] = roles.filter((role) => role.isCurrent);
-export const pastRoles: Role[] = roles.filter((role) => !role.isCurrent);
+export const currentRoles = roles.filter((role) => role.isCurrent);
+export const pastRoles = roles.filter((role) => !role.isCurrent);

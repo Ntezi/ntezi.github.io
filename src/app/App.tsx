@@ -18,6 +18,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
       <Navigation />
+      <main id="main-content">
       <Hero />
       <About />
       <CurrentRoles />
@@ -28,6 +29,7 @@ export default function App() {
       <Skills />
       {features.showEducation && <Education />}
       <Contact />
+      </main>
       <Footer />
     </div>
   );

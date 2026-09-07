@@ -10,15 +10,15 @@ export function Projects() {
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-slate-900 mb-4">Featured Projects</h2>
           <p className="text-lg text-slate-600">
-            Highlights from a portfolio spanning fintech, microservices, IoT, and mobile applications
+            Selected delivery across financial systems, AI and data platforms, and distributed services
           </p>
         </div>
 
-        <div className="space-y-6 mb-12">
+        <div className="grid md:grid-cols-2 gap-6 mb-12">
           {featuredProjects.map((project) => (
             <Card
               key={project.id}
-              className="p-8 border-slate-200 hover:border-indigo-300 hover:shadow-md transition-all"
+              className="p-6 border-slate-200 hover:border-indigo-300 hover:shadow-md transition-all"
             >
               <div className="flex flex-col lg:flex-row gap-6">
                 <div className="flex-1">

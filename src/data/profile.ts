@@ -12,34 +12,26 @@ export type SocialLink = {
 export const profile = {
   name: 'Marius Ngaboyamahina',
   shortName: 'Marius Ngaboyamahina',
-  headline: 'Senior Software Engineer & Technical Leader',
+  headline: 'Engineering Leader & Forward Deployed Engineer',
   tagline:
-    '10+ years building innovative solutions across Backend Engineering, Mobile Applications, and Microservice Architecture. Passionate about creating software that drives organizational success and positive societal impact.',
-  location: 'Kigali, Rwanda',
+    'I build financial systems, payment integrations, and AI-powered workflows that teams can run in production. 13+ years connecting hands-on engineering with technical leadership across Africa, Europe, Japan, and the United States.',
+  location: 'Accra, Ghana',
   workingStatus: 'Working globally',
-  availabilityBadge: 'Available for consulting',
+  availabilityBadge: 'Financial systems · Data · AI',
 
   email: 'ngabomarius@gmail.com',
-  phone: '+250 788 590 179',
+  phone: '+233 598 101 745',
 
   summary: [
-    "I'm a seasoned Software Engineer with a Master's degree in Information Systems from Kobe Institute of Computing, Japan. With over 10 years of rich experience in the IT industry, I specialize in the full spectrum of the Software Development Life Cycle, complemented by a robust understanding of Data Science.",
-    'My expertise lies in Backend Engineering, Mobile Applications, Natural Language Processing, and Data Mining. I have a proven track record in full-stack development across various tech stacks, with a keen interest in React, Node.js, and Microservice Architecture.',
-    "Beyond my technical prowess, I am a dedicated mentor, committed to fostering the growth of others in the field. I've mentored developers through programs like The Room's Tech Career Catalyst and taught programming at WiredIn Academy.",
+    "I lead the eight-person Digital Factory team at UMWALIMU SACCO, with responsibility for digital banking delivery, integrations, and production operations. Alongside this permanent role, I work as a Forward Deployed Engineer consultant at Hence Technologies, translating client requirements into production AI and data solutions.",
+    "My work spans payment interoperability, event-driven services, backend APIs, full-stack applications, and Palantir Foundry integrations. I stay close to implementation: tracing contracts, reviewing code, resolving production issues, and helping teams ship maintainable systems.",
+    "I hold a Master's in Information Systems from Kobe Institute of Computing, Japan. Teaching at WiredIn Academy and mentoring through African Leadership International / The Room have made developing other engineers a lasting part of my work.",
   ],
-
-  focusAreas: [
-    'Microservices',
-    'Fintech Integrations',
-    'Platform Modernization',
-    'Full-Stack Delivery',
-    'Engineering Leadership',
-  ],
-
+  focusAreas: ['Financial Systems', 'Payment Interoperability', 'Production AI', 'Distributed Systems', 'Engineering Leadership'],
   stats: [
-    { value: '10+', label: 'Years Experience' },
-    { value: '3', label: 'Current Roles' },
-    { value: '15+', label: 'Tech Stacks' },
+    { value: '13+', label: 'Years in software' },
+    { value: '8', label: 'Engineers in my team' },
+    { value: '4', label: 'Continents of delivery' },
   ] as ProfileStat[],
 
   socials: [

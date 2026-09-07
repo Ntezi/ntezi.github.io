@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: site.title,
   description: site.description,
+  alternates: { canonical: site.url },
   openGraph: {
     title: site.title,
     description: site.description,
@@ -23,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body suppressHydrationWarning>{children}</body>
+      <body><a className="skip-link" href="#main-content">Skip to content</a>{children}</body>
     </html>
   );
 }

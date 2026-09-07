@@ -1,71 +1,32 @@
-import { ChevronRight } from 'lucide-react';
-import { Card } from '../components/ui/card';
-import { Badge } from '../components/ui/badge';
 import { roles } from '../../data/experience';
 
 export function ExperienceTimeline() {
   return (
     <section id="timeline" className="py-20 bg-white">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-slate-900 mb-4">Career Timeline</h2>
-          <p className="text-lg text-slate-600">A decade of building and leading software teams</p>
+        <div className="mb-10">
+          <p className="text-sm font-semibold uppercase tracking-widest text-indigo-600 mb-3">Experience</p>
+          <h2 className="text-4xl font-bold text-slate-900 mb-4">A career built through delivery</h2>
+          <p className="text-lg text-slate-600">Employment, concurrent consulting, and client deployments since 2013. Expand a role for its scope and technologies.</p>
         </div>
-
-        <div className="relative">
-          <div className="absolute left-4 sm:left-1/2 top-0 bottom-0 w-px bg-slate-200" aria-hidden="true" />
-
-          <div className="space-y-8">
-            {roles.map((role, index) => {
-              const alignRight = index % 2 === 1;
-              return (
-                <div
-                  key={role.id}
-                  className={`relative grid sm:grid-cols-2 sm:gap-8 ${
-                    alignRight ? 'sm:[&>article]:col-start-2' : ''
-                  }`}
-                >
-                  <span
-                    className="absolute left-4 sm:left-1/2 top-6 -translate-x-1/2 w-3 h-3 rounded-full bg-indigo-600 ring-4 ring-white shadow"
-                    aria-hidden="true"
-                  />
-                  <article
-                    className={`pl-12 sm:pl-0 ${alignRight ? 'sm:pl-8' : 'sm:pr-8 sm:text-left'}`}
-                  >
-                    <Card className="p-6 border-slate-200 hover:border-indigo-300 hover:shadow-md transition-all">
-                      <div className="flex flex-wrap items-center gap-2 mb-2">
-                        <span className="text-sm font-medium text-indigo-600">{role.period}</span>
-                        {role.isCurrent && (
-                          <Badge className="bg-emerald-100 text-emerald-700 hover:bg-emerald-200">
-                            Current
-                          </Badge>
-                        )}
-                      </div>
-                      <h3 className="text-xl font-semibold text-slate-900">{role.title}</h3>
-                      <p className="text-slate-700 font-medium">{role.company}</p>
-                      <p className="text-sm text-slate-500 mb-3">{role.location}</p>
-                      <p className="text-slate-600 text-sm mb-4">{role.summary}</p>
-                      <ul className="space-y-2 mb-4">
-                        {role.highlights.slice(0, 4).map((highlight) => (
-                          <li key={highlight} className="flex items-start gap-2 text-sm text-slate-600">
-                            <ChevronRight className="w-4 h-4 text-indigo-600 mt-0.5 flex-shrink-0" />
-                            <span>{highlight}</span>
-                          </li>
-                        ))}
-                      </ul>
-                      <div className="flex flex-wrap gap-2">
-                        {role.stack.map((tech) => (
-                          <Badge key={tech} variant="secondary" className="text-xs">
-                            {tech}
-                          </Badge>
-                        ))}
-                      </div>
-                    </Card>
-                  </article>
-                </div>
-              );
-            })}
-          </div>
+        <div className="divide-y divide-slate-200 border-y border-slate-200">
+          {roles.map(role => (
+            <details key={role.id} className="group py-5">
+              <summary className="cursor-pointer rounded-md text-slate-900">
+                <span className="inline-grid gap-1 align-top w-[calc(100%-2rem)] pl-2">
+                  <span className="text-xs font-semibold uppercase tracking-wide text-indigo-700">{role.relationship}</span>
+                  <span className="text-lg font-semibold">{role.title}</span>
+                  <span className="text-slate-600 text-sm">{role.company} · {role.period}{role.isCurrent ? ' · Current' : ''}</span>
+                </span>
+              </summary>
+              <div className="pl-6 pt-5 max-w-3xl">
+                <p className="text-sm text-slate-500 mb-3">{role.location}</p>
+                <p className="text-slate-700 leading-relaxed">{role.summary}</p>
+                {role.highlights.length > 0 && <ul className="list-disc pl-5 mt-4 space-y-2 text-sm text-slate-600">{role.highlights.map(item => <li key={item}>{item}</li>)}</ul>}
+                <div className="flex flex-wrap gap-2 mt-5">{role.stack.map(tech => <span key={tech} className="text-xs rounded-md bg-slate-100 text-slate-700 px-2 py-1">{tech}</span>)}</div>
+              </div>
+            </details>
+          ))}
         </div>
       </div>
     </section>

@@ -13,11 +13,18 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    id: 'foundry-migration', title: 'Foundry Platform Migration', category: 'AI & Data',
+    client: 'Unruly Corporation · Deployed through Hence', date: 'During Hence consultancy', featured: true,
+    description: 'Delivered a Palantir Foundry stack migration, connecting application code, runtime services, authentication, and ontology-backed data for a client deployment.',
+    achievements: ['Frontend and backend runtime alignment', 'OSDK and dependency integration', 'OAuth configuration and ontology-backed application wiring'],
+    tech: ['Palantir Foundry', 'OSDK', 'OAuth', 'TypeScript', 'React'],
+  },
+  {
     id: 'jambo360',
     title: 'Jambo360 Platform',
     category: 'FinTech',
     client: 'Credit Jambo Ltd.',
-    date: 'Nov 2025 — Present',
+    date: 'Nov 2025 — Jun 2026',
     featured: true,
     description:
       'Led technical development of a digital financial solutions platform, establishing code quality practices and coordinating delivery milestones with the CTO.',
@@ -39,12 +46,12 @@ export const projects: Project[] = [
     description:
       'Spearheaded multi-year digital modernization including MTN Escrow, School Fees Collection, RSwitch interoperability, and an online loan application for teachers nationwide.',
     achievements: [
-      'Halved deployment times via CI/CD adoption',
-      'Reduced infrastructure costs through containerization',
+      'CI/CD adoption and automated releases',
+      'Containerized service delivery',
       'IFRS 9-aligned automation of loan provisions',
-      'RNDPS interoperability via RSwitch',
+      'eKash / RNDPS using ISO 20022; PostBridge using ISO 8583',
     ],
-    tech: ['C#', 'ASP.NET 7', 'SQL Server', 'Docker', 'GitHub Actions'],
+    tech: ['C#', 'ASP.NET Core', 'SQL Server', 'Docker', 'GitHub Actions'],
   },
   {
     id: 'school-fees',
@@ -55,11 +62,11 @@ export const projects: Project[] = [
     url: 'https://www.umwalimusacco.rw',
     featured: true,
     description:
-      'Digitized school fee and meal payments for 3.9M+ students in Rwanda through a public–private collaboration that improved efficiency and accessibility for parents and schools.',
+      'Led integrations for school-fees and Dusangire Lunch school-feeding collections, connecting banking and telecom payment workflows in Rwanda.',
     achievements: [
       'Nationwide rollout to schools across Rwanda',
       'Telecom + banking + government integration',
-      'Significant deposit growth and operational efficiency',
+      'School-fees and school-feeding payment workflows',
     ],
     tech: ['C#', 'ASP.NET', 'SQL Server', 'API Integration'],
   },
@@ -67,8 +74,8 @@ export const projects: Project[] = [
     id: 'live-streaming',
     title: 'Live Streaming Microservices',
     category: 'Microservices',
-    client: 'Cardinal Peak (Lafayette, CO)',
-    date: 'Sep 2020 — Jun 2023',
+    client: 'Audacy / AmperWave · WiredIn–Cardinal Peak partnership',
+    date: 'Sep 2020 — Sep 2022',
     featured: true,
     description:
       'Designed and implemented enterprise-scale microservices for live audio streaming and ad serving, debugging across legacy systems and adopting AWS-native services.',

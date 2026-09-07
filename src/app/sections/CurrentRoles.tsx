@@ -9,9 +9,9 @@ export function CurrentRoles() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-slate-900 mb-4">Current Roles</h2>
-          <p className="text-lg text-slate-600">Leading technical initiatives across multiple organizations</p>
+          <p className="text-lg text-slate-600">Permanent leadership at UMWALIMU SACCO, alongside a separate consulting engagement.</p>
         </div>
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 gap-6">
           {currentRoles.map((role) => (
             <Card
               key={role.id}
@@ -19,6 +19,7 @@ export function CurrentRoles() {
             >
               <div className="mb-4">
                 <Briefcase className="w-8 h-8 text-indigo-600 mb-3" />
+                <p className="text-xs font-semibold uppercase tracking-wide text-indigo-700 mb-3">{role.relationship}</p>
                 <h3 className="font-semibold text-slate-900 mb-1">{role.title}</h3>
                 <p className="text-indigo-600 font-medium">{role.company}</p>
                 <p className="text-sm text-slate-500 mt-1">{role.period}</p>

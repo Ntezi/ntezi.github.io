@@ -1,7 +1,7 @@
 export const site = {
-  title: 'Marius Ngaboyamahina — Senior Software Engineer & Technical Leader',
+  title: 'Marius Ngaboyamahina — Engineering Leader & Forward Deployed Engineer',
   description:
-    'Senior Software Engineer with 10+ years across backend engineering, microservices, fintech integrations, and engineering leadership.',
+    'Marius Ngaboyamahina: engineering leader and forward deployed engineer based in Accra. 13+ years delivering financial systems, payment integrations, distributed services, and production AI solutions.',
   url: 'https://ntezi.github.io',
   copyrightYear: new Date().getFullYear(),
   features: {
