@@ -12,7 +12,7 @@ export type SocialLink = {
 export const profile = {
   name: 'Marius Ngaboyamahina',
   shortName: 'Marius Ngaboyamahina',
-  headline: 'Engineering Leader & Forward Deployed Engineer',
+  headline: 'Senior Software & Forward Deployed Engineer',
   tagline:
     'I build financial systems, payment integrations, and AI-powered workflows that teams can run in production. 13+ years connecting hands-on engineering with technical leadership across Africa, Europe, Japan, and the United States.',
   location: 'Accra, Ghana',
@@ -23,14 +23,13 @@ export const profile = {
   phone: '+233 598 101 745',
 
   summary: [
-    "I lead the eight-person Digital Factory team at UMWALIMU SACCO, with responsibility for digital banking delivery, integrations, and production operations. Alongside this permanent role, I work as a Forward Deployed Engineer consultant at Hence Technologies, translating client requirements into production AI and data solutions.",
-    "My work spans payment interoperability, event-driven services, backend APIs, full-stack applications, and Palantir Foundry integrations. I stay close to implementation: tracing contracts, reviewing code, resolving production issues, and helping teams ship maintainable systems.",
-    "I hold a Master's in Information Systems from Kobe Institute of Computing, Japan. Teaching at WiredIn Academy and mentoring through African Leadership International / The Room have made developing other engineers a lasting part of my work.",
+    'Senior Software & Forward Deployed Engineer with over a decade of international experience translating complex business challenges into reliable backend and full-stack solutions that address practical business needs.',
+    'Proven track record in architecting highly available financial platforms, secure payment integrations, and distributed systems. Combines data engineering pipelines with production-grade AI solutions built on Palantir Foundry.',
+    'A collaborative technical leader passionate about mentoring engineers and sharing knowledge, bringing hands-on engineering judgment and client-facing delivery experience across Africa, Europe, Japan, and the United States.',
   ],
   focusAreas: ['Financial Systems', 'Payment Interoperability', 'Production AI', 'Distributed Systems', 'Engineering Leadership'],
   stats: [
     { value: '13+', label: 'Years in software' },
-    { value: '8', label: 'Engineers in my team' },
     { value: '4', label: 'Continents of delivery' },
   ] as ProfileStat[],
 

@@ -14,7 +14,7 @@ export type Project = {
 export const projects: Project[] = [
   {
     id: 'foundry-migration', title: 'Foundry Platform Migration', category: 'AI & Data',
-    client: 'Unruly Corporation · Deployed through Hence', date: 'During Hence consultancy', featured: true,
+    client: 'The Unruly Corporation · Deployed through Hence', date: 'During Hence consultancy', featured: true,
     description: 'Delivered a Palantir Foundry stack migration, connecting application code, runtime services, authentication, and ontology-backed data for a client deployment.',
     achievements: ['Frontend and backend runtime alignment', 'OSDK and dependency integration', 'OAuth configuration and ontology-backed application wiring'],
     tech: ['Palantir Foundry', 'OSDK', 'OAuth', 'TypeScript', 'React'],

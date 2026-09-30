@@ -15,12 +15,12 @@ export const roles: Role[] = [
   {
     id: 'umwalimu-sacco',
     title: 'Digital Factory Manager',
-    relationship: 'Permanent employment · Team of 8',
+    relationship: 'Permanent employment',
     company: 'UMWALIMU SACCO',
     location: 'Kigali headquarters · Remote from Accra, Ghana',
     period: 'Jun 2023 — Present',
     isCurrent: true,
-    summary: 'Lead an eight-person team responsible for the design, delivery, integration, and production operation of digital banking and business solutions.',
+    summary: 'Lead the team responsible for the design, delivery, integration, and production operation of digital banking and business solutions.',
     highlights: [
       'Led eKash / RNDPS integration using ISO 20022 and PostBridge integration using ISO 8583 for interoperability and ATM access.',
       'Introduced Go for SMPP integration and use Kafka for account information synchronization, validations, and event-driven processing.',
@@ -42,7 +42,7 @@ export const roles: Role[] = [
     summary: "Implement production AI and data solutions for Hence Legal, working directly with stakeholders across the United States, Europe, and Africa.",
     highlights: [
       'Translate complex client requirements into deployable workflows, integrations, and maintainable product capabilities.',
-      'Deployed through Hence to Unruly Corporation for a Palantir Foundry stack migration.',
+      'Deployed through Hence to The Unruly Corporation for a Palantir Foundry stack migration.',
       'Aligned frontend and backend endpoints, OSDK dependencies, OAuth configuration, and ontology-backed application wiring.',
     ],
     stack: ['Palantir Foundry', 'OSDK', 'OAuth', 'TypeScript', 'React', 'Data Integration', 'Production AI'],
