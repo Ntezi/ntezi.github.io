@@ -32,9 +32,16 @@ export type Certification = {
   name: string;
   issuer: string;
   year?: string;
+  url?: string;
 };
 
 export const certifications: Certification[] = [
+  {
+    name: 'Palantir Foundry Aware',
+    issuer: 'Palantir Technologies',
+    year: 'Sep 2026',
+    url: 'https://verify.skilljar.com/c/jpakwmr4qgyd',
+  },
   {
     name: 'African Business Education (ABE) Initiative — Master\'s Degree and Internship Program',
     issuer: 'JICA / Japan Government',

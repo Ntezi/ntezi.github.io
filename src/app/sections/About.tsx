@@ -39,7 +39,9 @@ export function About() {
               <h3 className="font-semibold text-slate-900 mb-2">Certifications</h3>
               {certifications.map((cert) => (
                 <p key={cert.name} className="text-slate-600 text-sm mt-1 first:mt-0">
-                  {cert.name}
+                  {cert.url ? (
+                    <a href={cert.url} target="_blank" rel="noopener noreferrer" className="text-indigo-600 hover:text-indigo-700 underline underline-offset-2">{cert.name}</a>
+                  ) : cert.name}
                 </p>
               ))}
             </Card>

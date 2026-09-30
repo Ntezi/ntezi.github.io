@@ -59,6 +59,11 @@ export function Education() {
                     {cert.issuer}
                     {cert.year ? ` · ${cert.year}` : ''}
                   </p>
+                  {cert.url && (
+                    <a href={cert.url} target="_blank" rel="noopener noreferrer" className="mt-1 inline-flex items-center gap-1 text-sm text-indigo-600 hover:text-indigo-700 font-medium">
+                      Verify certificate <ExternalLink className="w-3.5 h-3.5" />
+                    </a>
+                  )}
                 </li>
               ))}
             </ul>
