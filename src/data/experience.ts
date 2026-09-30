@@ -42,10 +42,23 @@ export const roles: Role[] = [
     summary: "Implement production AI and data solutions for Hence Legal, working directly with stakeholders across the United States, Europe, and Africa.",
     highlights: [
       'Translate complex client requirements into deployable workflows, integrations, and maintainable product capabilities.',
-      'Deployed through Hence to The Unruly Corporation for a Palantir Foundry stack migration.',
-      'Aligned frontend and backend endpoints, OSDK dependencies, OAuth configuration, and ontology-backed application wiring.',
     ],
     stack: ['Palantir Foundry', 'OSDK', 'OAuth', 'TypeScript', 'React', 'Data Integration', 'Production AI'],
+  },
+  {
+    id: 'unruly',
+    title: 'Forward Deployed Engineer — Unruly Deployment',
+    relationship: 'Client deployment through Hence',
+    company: 'The Unruly Corporation',
+    location: 'Remote from Accra, Ghana',
+    period: 'During Hence consultancy',
+    isCurrent: false,
+    summary: 'Built and maintained data and AI workflows on Palantir Foundry while learning the platform.',
+    highlights: [
+      'Led root-cause investigations, solution design, implementation planning, and code reviews across Foundry pipelines and the shared data model, prioritizing reversible changes and production safety.',
+      'Conducted a Palantir Foundry stack migration, aligning frontend and backend runtime endpoints, OSDK dependencies, OAuth configuration, and ontology-backed application wiring.',
+    ],
+    stack: ['Palantir Foundry', 'OSDK', 'OAuth', 'TypeScript', 'React', 'Data Integration', 'Workflow Automation', 'Production AI'],
   },
   {
     id: 'credit-jambo',
