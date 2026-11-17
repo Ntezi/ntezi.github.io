@@ -20,6 +20,32 @@ export const projects: Project[] = [
     tech: ['Palantir Foundry', 'OSDK', 'OAuth', 'TypeScript', 'React'],
   },
   {
+    id: 'foundry-learn',
+    title: 'Foundry Learn',
+    category: 'Learning Tools',
+    client: 'Personal Project',
+    date: 'Oct 2026',
+    url: 'https://ntezi.github.io/foundry-learn/',
+    featured: false,
+    description:
+      'A reading app over my Palantir Foundry study notes, with a learning path, search, glossary, flashcards, and a hands-on Ontology lab.',
+    achievements: ['Markdown notes rendered to a static site', 'Instant search and spaced-repetition flashcards', 'Interactive Ontology modelling lab'],
+    tech: ['JavaScript', 'esbuild', 'GitHub Pages'],
+  },
+  {
+    id: 'foundry-practice',
+    title: 'Foundry Practice',
+    category: 'Learning Tools',
+    client: 'Personal Project',
+    date: 'Nov 2026',
+    url: 'https://ntezi.github.io/foundry-practice/',
+    featured: false,
+    description:
+      'An independent, unofficial mock-exam and practice site for the Palantir Foundry Application Developer certification, with original questions and explained answers.',
+    achievements: ['Timed, forward-only mock exams', 'Practice by section and question format', 'Explained answers linked to public documentation'],
+    tech: ['JavaScript', 'esbuild', 'GitHub Pages'],
+  },
+  {
     id: 'jambo360',
     title: 'Jambo360 Platform',
     category: 'FinTech',
